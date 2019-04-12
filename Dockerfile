@@ -1,4 +1,4 @@
-FROM	debian:buster-slim
+FROM	debian:buster
 
 RUN	apt update && \
 	DEBIAN_FRONTEND=noninteractive apt install -y git gnuplot make openjdk-11-jre python3 python3-jinja2 && \
